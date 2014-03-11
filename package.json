@@ -1,0 +1,17 @@
+{
+  "name": "dyndns-route53-updater",
+  "version": "0.0.0",
+  "description": "Simple web service to update a DNS entry from router (e.g. tomato firmware)",
+  "scripts": {
+    "prepublish": "coffee -c server.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fred Maurer <fmaurer@gmail.com>",
+  "license": "GPLv2",
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.0.0-rc11"
+  }
+}
